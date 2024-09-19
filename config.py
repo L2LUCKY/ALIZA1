@@ -8,24 +8,24 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("API_ID", "9722461"))
+API_HASH = getenv("API_HASH", "f6f8044d6bc9352b8158280cf471cfe2")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = getenv("BOT_TOKEN", "6182735759:AAEnX5RTbvhKa3OdSoirLW5NiAHiUcNlPKg")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Lucky:Lucky@atlascluster.f7lck9c.mongodb.net/?retryWrites=true&w=majority")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𓆩♪𝗔𝗹𝗶𝘇𝗮❤️‍🔥𝗠𝘂𝘀𝗶𝗰 ♪𓆪")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002203942144"))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7250012103"))
+OWNER_ID = int(getenv("OWNER_ID", "7108025413"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BRANDED_WORLD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/K3SHAV_Says")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SECERT_SOClETY")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -73,7 +73,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @BRANDEDSTRINGSESSION_BOT on Telegram
-STRING1 = getenv("STRING_SESSION",  None)
+STRING1 = getenv("STRING_SESSION",  "BQCUWl0ABaoyciBKSJQBBAux8tuDIayTbYGf7la6gcxSbLI_pv6fHxrPqbCW-AiWkXkCv7Xjz_KEqIO-d_8T0LolmwzScim7s9Y4dKzSMaCwmxYdE1ie_TCGRA3iPpmUfkKf6nIHZFZKpdCNwS6Gcx1a63U_rHEoNIqahbet6z7Bp7HVlgmC6F17IjVTK1kXt18yNL1mHngsQSsMvHv2uTTekOfeYtd5gWgSoylFTqRnJn1Nkrvm0q7jjhlEu1ThI7skHKusFARhz7LWd-AvHCIVGu-xeKgDzCeVo827q1jCTbW05d6lFvIgEi8XUokdNAqD8eWfgydZ8_10Dwy9x0DPwa3tTAAAAAGplbpmAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -89,7 +89,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/62c76ac2095332a0ede75.jpg"
+    "START_IMG_URL", "https://envs.sh/qP5.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/4f59fb748e1990acfa297.jpg"
