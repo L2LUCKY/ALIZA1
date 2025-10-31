@@ -15,7 +15,7 @@ API_HASH = getenv("API_HASH", "")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Lucky:Lucky@atlascluster.f7lck9c.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
